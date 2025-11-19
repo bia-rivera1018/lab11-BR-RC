@@ -39,7 +39,7 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide_by_zero(self):
         with self.assertRaises(ZeroDivisionError):
-            calculator.div(10, 0)
+            calculator.div(0, 10)
 
     def test_logarithm(self):
         result = calculator.logarithm(10, 100)
