@@ -19,7 +19,7 @@ def div(a,b):
     return a / b
 
 def logarithm(a,b):
-    if a<-0 or a==1 or b<=0:
+    if a<=0 or a==1 or b<=0:
         raise ValueError("Invalid arguments for logarithm.")
     return math.log(b,a)
 
