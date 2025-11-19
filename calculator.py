@@ -3,6 +3,7 @@
 # Partner 2: Rodrigo Cardenas
 
 import math
+
 def add(a, b): 
     return a+b
 
@@ -23,8 +24,6 @@ def logarithm(a,b):
 def exponent(a,b):
     return a**b
 
-
-import math
 
 def add(a, b):
     return a + b
