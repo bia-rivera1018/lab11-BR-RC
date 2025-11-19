@@ -14,9 +14,9 @@ def mul(a,b):
     return a * b
 
 def div(a,b):
-    if b == 0:
+    if a == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
-    return a / b
+    return  b/a
 
 def logarithm(a,b):
     if a<=0 or a==1 or b<=0:
