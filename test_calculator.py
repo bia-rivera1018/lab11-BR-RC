@@ -4,13 +4,13 @@
 
 import math
 import unittest
-<<<<<<< HEAD
+
 
 import calculator
 from calculator import *
-=======
+
 import calculator
->>>>>>> f18fdd070514e4334d4bd61ff6f880da192408b2
+
 
 class TestCalculator(unittest.TestCase):
     def test_add(self):
