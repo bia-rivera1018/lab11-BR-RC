@@ -22,8 +22,14 @@ def logarithm(a,b):
     return math.log(b,a)
 
 def exponent(a,b):
-    return a**b
+    return a**b #this lowekey tells you who wrote which code - really like it
 
+def square_root(a):
+    if a<0:
+        raise ValueError("Cannot take the square root of negative number")
+    return math.sqrt(a)
+def hypotenuse(a,b):
+    return math.hypot(a,b)
 
 def add(a, b):
     return a + b
